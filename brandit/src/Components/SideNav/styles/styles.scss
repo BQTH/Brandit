@@ -1,0 +1,13 @@
+.SideNav{
+     &__IconButton{
+         float: right;
+         justify-content: flex-end !important;
+         padding: 0px !important;
+         margin-top: 10px !important;
+     }
+
+     &__Icon{
+         height: 30px !important;
+         width: auto !important;
+     }
+}
