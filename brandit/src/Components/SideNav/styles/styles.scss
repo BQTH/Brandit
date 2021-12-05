@@ -1,4 +1,10 @@
+@use './../../../var';
+
 .SideNav{
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+
      &__IconButton{
          float: right;
          justify-content: flex-end !important;
@@ -9,5 +15,6 @@
      &__Icon{
          height: 30px !important;
          width: auto !important;
+        // color: var.$clr-primary-750;
      }
 }

@@ -1,0 +1,58 @@
+@use "./../../../var";
+
+.Identity {
+    padding: 16px;
+    //border: solid var.$clr-primary-250 1px;
+    border-radius: 4px;
+    background-color: var.$clr-primary-100;
+    &__topInfo {
+        display: flex;
+
+        &__CompanyName {
+            width: 50%;
+            padding-top: 15px;
+
+            &__Label {
+                font-size: 12px;
+                opacity: 90%;
+                margin: 0px;
+            }
+
+            &__Value {
+                font-size: 20px;
+                margin: 0px;
+            }
+        }
+
+        &__Logo {
+            width: 50%;
+            img {
+                float: right;
+                width: 75px;
+                height: 75px;
+            }
+        }
+    }
+
+    &__otherInfo {
+        &__Container {
+            display: flex;
+
+            &__Field {
+                width: 50%;
+                padding-top: 15px;
+
+                &__Label {
+                    font-size: 12px;
+                    opacity: 90%;
+                    margin: 0px;
+                }
+
+                &__Value {
+                    font-size: 14px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
