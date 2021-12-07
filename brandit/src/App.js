@@ -13,7 +13,7 @@ function App() {
     palette: {
       //mode: 'dark',
       primary: {
-        main: lightBlue[500],
+        main: lightBlue[300],
       },
     },
   });
